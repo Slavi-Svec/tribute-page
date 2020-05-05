@@ -1,5 +1,9 @@
+* {
+    margin: 0;
+    font-family: Times New Roman;
+}
+
 body {
-    font-family: Roboto;
     text-align: center;
 }
 
@@ -10,60 +14,66 @@ body {
 
 #image {
     max-width: 100%;
-    max-height: 800px;
-    border-width: 25px;
-    border-color: #F5F5F5;
-    border-style: solid;
+    max-height: 1000px;
 }
 
 #title {
     color: rgb(27, 26, 26);
     font-size: 40px;
     position: absolute;
-    margin-left: 15%;
-    margin-top: 15%
+    margin-left: 13%;
+    margin-top: 10%
 }
 
 #img-caption {
     margin-top: 60px;
-    font-size: 20px;
+    font-size: 22px;
     margin-right: 18%;
-    margin-left:  18%
+    margin-left:  18%;
+    font-style: italic;
+    margin-bottom: 60px;
 }
 
 #details {
-    /* TODO style borders an colour. */
-    /* border: red 2px solid; */
-    /* background-color: pink; */
-    margin-top: 80px;
+    background-color: rgb(216, 228, 230);
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
-    /* border-width: 25px;
-    border-color: #F5F5F5;
-    border-style: solid; */
 }
 
 #tribute-title {
+    margin-top:80px;
     font-size: 40px;
     margin-block-end: 0.2em;
 }
 
 #tribute-text {
-    font-size: 25px;
+    margin-top: 5px;
+    font-size: 30px;
 }
 
 #tribute-info {
+    margin-top: 50px;
     line-height: 1.4;
-    margin-right: 18%;
-    margin-left:  18%;
+    margin-right: 20%;
+    margin-left:  20%;
 }
 
 #brent-image {
     max-width: 100%;
-    margin-right: 18%;
-    margin-left:  18%
+    margin-right: 20%;
+    margin-left:  20%;
+    padding-top: 40px;
 }
 
+h4 {
+    margin-top: 40px;
+}
+
+#tribute-link {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 
 
 
