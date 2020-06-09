@@ -18,7 +18,7 @@ body {
 }
 
 #title {
-    color: rgb(27, 26, 26);
+    color: black;
     font-size: 40px;
     position: absolute;
     margin-left: 13%;
@@ -77,5 +77,97 @@ h4 {
 
 
 
+@media screen and (max-width: 1025px) {
 
+    #title {
+        font-size: 35px;
+    }
+
+    #brent-image {
+        margin-right: 16%;
+        margin-left:  16%;
+    }
+}
+
+@media screen and (max-width: 801px) {
+
+    #title {
+        font-size: 32px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #home-img {
+        height: 100px;
+    }
+
+    #title {
+        font-size: 32px;
+    }
+
+    #brent-image {
+        margin-right: 15%;
+        margin-left:  15%;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #title {
+        font-size: 21px;
+    }
+
+    #brent-image {
+        margin-right: 10%;
+        margin-left:  10%;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    #title {
+        font-size: 19px;
+        margin-left: 16%;
+        margin-right: 46%;
+        margin-top: 10%;
+    }
+
+    #img-caption {
+        margin-top: 80px;
+        margin-bottom: 86px;
+        font-size: 16px;
+        right: 5%;
+        left:  5%;
+    }
+
+    #tribute-title {
+        font-size: 30px;
+        margin-block-end: 0.2em;
+    }
+
+    #tribute-text {
+        margin-top: 5px;
+        font-size: 25px;
+    }
+
+    #tribute-info {
+        margin-top: 50px;
+        line-height: 1.4;
+        margin-right: 10%;
+        margin-left:  10%;
+        font-size: 16px;
+    }
+
+    #brent-image {
+        margin-right: 10%;
+        margin-left:  10%;
+    }
+
+}
 
